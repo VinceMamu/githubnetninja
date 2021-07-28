@@ -21,7 +21,7 @@ fun main(){
 fun timeCheck(){
     println("Enter your time")
     var a = readLine()!!
-    println("You inputted $a")
+    println("You have inputted $a")
     var b: Int? = a.toIntOrNull()
     println( when (b){
     in 1..12 -> "Morning, Kotlin"
